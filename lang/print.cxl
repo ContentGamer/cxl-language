@@ -1,0 +1,26 @@
+THIS IS esolangCXL__HEADER&&;
+
+USE GLOBAL THING AND _NAMESPACE_ std//;
+USE GLOBAL THING AND _NAMESPACE_ std_numbers//;
+
+l mylet = &LET VALUE&;
+c myconstant = &CONSTANT VALUE&;
+
+l operation = N1M plus N1M multiplicate N1M;
+
+vid_ CXL_MAIN(list_shut[]? args): {
+    clx_printf(&hey&)
+};
+i_ CALC(i a,i b): {
+    cxl_printf(a plus b);
+};
+cap_ GETVALUE(cap_ capvalue): {
+    cxl_printf(cap_reverse(SELF_GET::capvalue));
+};
+vid_ SHUT(): {
+    clx_SHUTUP(0);
+};
+
+vid_ WAIT(shut str): {
+    c value = clx_wait_keypress(SELF_GET::str);
+};
