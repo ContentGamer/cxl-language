@@ -1,6 +1,7 @@
 # Welcome to the ContentXLang
 
-An ESOLang that will drive you "insane"
+This language is different than any ESOLang out there, it has the syntax of C++ and C#.
+This is, of course, an interpreted programming language.
 
 # Getting Started
 To get started, first clone the repo by `git clone https://github.com/ContentGamer/cxl-language.git` then run these commands.
@@ -21,10 +22,8 @@ npm run cxl !FILE: STRING! !ARGS: STRING[]!
 > [!CAUTION]
 > Use this at your own risk lol.
 
-> [!INFO]
-> You can't use comments in this ESOLang language.
-> This language is different than any ESOLang out there, it has the syntax of C++ and C#.
-This is, of course, an interpreted programming language.
+> [!NOTE]
+> You can't use comments in this ESOLang language. since most technically all developers don't use comments.
 
 ## Basic Printing
 ```typescript
